@@ -1,9 +1,10 @@
 
 .foot{
-    background-color: #212529;
+    position: absolute;
+    background-color: #01295c;
     margin: 0;
     padding: 0;
     height: 40px;
     width: 100%;
-    position: relative;
+    bottom:0px;
 }

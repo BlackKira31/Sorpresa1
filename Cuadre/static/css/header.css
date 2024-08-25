@@ -1,12 +1,15 @@
 header {
-    background-color: #0653a0;
+    background-color: #075aaa;
     margin: 0;
     padding: 0;
     width: 100%;
+    display: flex;
+    align-content: space-around;
 }
 
 .navbar{
     width:75%;
+    
 }
 
 .navul {
@@ -24,13 +27,13 @@ header {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 10px 8px 10px;
     text-decoration: none;
 }
   
   /* Change the link color to #111 (black) on hover */
 .nava:hover {
-    background-color: #111111b7;
+    background-color: #eb2226;
 }
 
 .headerinfo{

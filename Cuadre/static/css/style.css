@@ -5,34 +5,44 @@ body {
     padding: 0;
     color: #212529;
     margin-bottom: 40px;
+    font-size: 14px;
 }
 #cuerpo {
     margin: 0px auto;
-    background-color: #efe9e5;
+    background-color: #ffffff;
     width: 90%;
+    height: max-content;
 }
 
 /*---------------------------------index.html----------------------------*/
 #div_index{
     display: flex;
     justify-content: center;
-
-}
-#div_index table tbody tr:nth-child(odd) {
-	background: #ffcb00;
-}
-#div_index table tbody tr:nth-child(even) {
-	background: #ff9500;
-}
-#div_index table thead {
-    background: #0017e6;
+    padding: 50px 0px;
 }
 #div_index table {
     width: 90%;
     border-collapse: collapse;
+    font-size: 20px
 }
 #div_index table td th {
     border: solid 2px;
-    border-color: #000000;
-
+    border-color: #075aaa;
+}
+#div_index table thead {
+    background: #010524;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+#div_index table thead th {
+    padding: 10px;
+}
+#div_index table tbody tr:nth-child(odd) {
+	background: #ebebeb;
+}
+#div_index table tbody tr:nth-child(even) {
+	background: #c8c8c9;
+}
+#div_index td {
+    padding: 5px;
 }

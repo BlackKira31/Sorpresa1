@@ -12,30 +12,33 @@ body {
     background-color: #ffffff;
     width: 90%;
     height: max-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*---------------------------------index.html----------------------------*/
 #div_index{
     display: flex;
     justify-content: center;
-    padding: 50px 0px;
 }
 #div_index table {
     width: 90%;
-    border-collapse: collapse;
-    font-size: 20px
+    border-collapse: collapse ;
+    font-size: 20px;
 }
-#div_index table td th {
+#div_index table td {
     border: solid 2px;
-    border-color: #075aaa;
+    border-color: #000000;
 }
 #div_index table thead {
-    background: #010524;
+    background: #040d53;
     color:#FFFFFF;
     font-weight: bold;
 }
 #div_index table thead th {
     padding: 10px;
+    border: solid 2px;
+    border-color: #000000;
 }
 #div_index table tbody tr:nth-child(odd) {
 	background: #ebebeb;

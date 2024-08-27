@@ -1,15 +1,18 @@
 header {
     background-color: #075aaa;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     width: 100%;
-    display: flex;
     align-content: space-around;
 }
 
+#contheader{
+    margin: 0px auto;
+    width: 90%;
+    display: flex;
+}
 .navbar{
-    width:75%;
-    
+    width: 75%;
 }
 
 .navul {

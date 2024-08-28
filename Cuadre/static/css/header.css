@@ -25,6 +25,9 @@ header {
 .navli {
     float: left;
 }
+.navli:active{
+    background-color: #0575df;
+}
   
 .nava {
     display: block;

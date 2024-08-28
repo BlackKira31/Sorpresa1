@@ -11,6 +11,7 @@ body {
     margin: 0px auto;
     background-color: #ffffff;
     width: 90%;
+    height: 100%;
     height: max-content;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -20,6 +21,7 @@ body {
 #div_index{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 #div_index table {
     width: 90%;
